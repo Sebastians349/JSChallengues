@@ -19,7 +19,8 @@ const johnHeight =  169;
 
 const markBmi= markMass/markHeight * 2 ;
 const johnBmi= johnMass/johnHeight * 2 ;
-// console.log(markBmi, johnBmi);
+console.log(markBmi)
+console.log(johnBmi);
 // 3. Create a Boolean variable 'markHigherBMI' containing information about
 // whether Mark has a higher BMI than John.
 
@@ -38,3 +39,8 @@ let markHigherBMI = markBmi > johnBmi;
 // 2. Use a template literal to include the BMI values in the outputs. Example: "Mark's
 // BMI (28.3) is higher than John's (23.9)!"
 // Hint: Use an if/else statement �
+if (markBmi > johnBmi ) { console.log(`John's BMI (${johnBmi}) is higher than Mark's! BMI (${markBmi})`);
+}
+        
+ else{ console.log(`John's BMI (${johnBmi}) is higher than Mark's! BMI (${markBmi})`);
+}
